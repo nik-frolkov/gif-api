@@ -15,7 +15,7 @@
 ---------------------
 С использованием DockerHub:
 
-`Выполнить команды в командной строке
+Выполнить команды в командной строке
 
 - docker pull kolian0071/myrepo:latest
 - docker run -d  -p8080:8080 gif-api
@@ -31,7 +31,7 @@ http://localhost:8080/api/v1/gif/[currency] , где
 
 Сервис возвращает клиенту JSON объект c адресом GIF и тэгом в соответствии с заданием.
 Пример запроса:
-http://localhost:8080/api/v1/gif/USD
+http://localhost:8080/api/v1/gif/EUR
 
 Пример ответа:
 
